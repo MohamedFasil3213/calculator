@@ -1,0 +1,33 @@
+.small-box{
+    background-color:aliceblue;
+    width: 300px;
+    height: 390px;
+    margin-left: 615px;
+    margin-top: 190px;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+#inputbox{
+    margin-top: 18px;
+    margin-left: 25px;
+    width: 230px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: rgb(69, 140, 241);
+    border-color:aliceblue;
+    color: white;
+    padding-right: 30px;
+    text-align: right;
+}
+.buttons{
+    margin-top: 30px;
+    height:45px;
+    width: 45px;
+    border-radius: 25px;
+    border: none;
+}
+.container{
+    padding: 10px;
+}
+

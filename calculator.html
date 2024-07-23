@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="small-box">
+            <div id="inputbox">  </div><br>
+
+            <div style="display: flex;justify-content: space-evenly;">
+        <button class="buttons" onclick="addtask('7')">7</button>
+        <button class="buttons" onclick="addtask('8')">8</button>
+        <button class="buttons" onclick="addtask('9')">9</button>
+        <button class="buttons" onclick="addtask('-')" style="background-color: rgb(217, 45, 45); color: white;">-</button>
+        </div>
+
+        <div style="display: flex;justify-content: space-evenly;">
+            <button class="buttons" onclick="addtask('4')">4</button>
+            <button class="buttons" onclick="addtask('5')">5</button>
+            <button class="buttons" onclick="addtask('6')">6</button>
+            <button class="buttons" onclick="addtask('/')" style="background-color: rgb(60, 60, 215); color: white;">/</button>
+            </div>
+
+            <div style="display: flex;justify-content: space-evenly;">
+                <button class="buttons" onclick="addtask('1')">1</button>
+                <button class="buttons" onclick="addtask('2')">2</button>
+                <button class="buttons" onclick="addtask('3')">3</button>
+                <button class="buttons" onclick="addtask('*')" style="background-color: yellow ;color: white">x</button>
+                </div>
+
+                <div style="display: flex;justify-content: space-evenly;">
+                    <button class="buttons" onclick="clearbutton()" style="background-color: rgb(1, 1, 37); color: white;">C</button>
+                    <button class="buttons" onclick="addtask('8')">0</button>
+                    <button class="buttons" onclick="calculate('9')">=</button>
+                    <button class="buttons" onclick="addtask('+')" style="background-color: rgb(26, 230, 26);" >+ </button>
+                    </div>
+    
+
+        
+    </div>
+
+    </div>
+    <script src="calculator.js"></script>
+
+
+    
+</body>
+</html>
